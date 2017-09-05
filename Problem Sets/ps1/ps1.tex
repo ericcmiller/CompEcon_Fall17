@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage[margin=1in]{geometry}
+\usepackage{times}
+
+\begin{document}
+% Heading
+\noindent Eric C. Miller\newline\newline
+ECON 815\newline\newline
+Dr. Jason DeBacker\newline\newline
+\today \newline
+
+% Title
+\begin{center}
+\section*{Introductory Assignment}
+\end{center}
+
+% Body
+\noindent As an undergraduate student, I haven't truly had the necessary time and/or experience to fully formulate a primary research focus. However, given the topics I have been exposed to thus far I believe I have a general idea. 
+\newline
+\newline
+\textbf{History:} 
+\newline\newline
+I started off doing research in discrete mathematics, particularly graph theory (mostly coding in Python) because I was told I did not yet have the necessary mathematical background to conduct research in economics. My first experience specifically working in this field was an attempt at extending the Dinitz Conjecture, which states that any $nxn$ Latin square has a list-coloring number$^2$ of $n$ \cite{ref1:1}. While this did not permanently captivate my interest, it did introduce me to the world of applied computing and parallelized structure. It also initially introduced me to coding in Python, which turned out to be a great skill I would use later on. I worked on this project for about a year, and presented at two conferences and wrote a paper. However, this did not result in a publication. This project also turned out to be invaluable in that it taught me the importance of mathematical rigor.
+\newline\newline
+From this, I moved on to more applied work in a private consulting firm, constructing a model for South Carolina income tax over the course of a year similar to that of the TaxBrain (however, I was unable to put together a structural model). This further steered me in the direction of computational economics and introduced political economy to me. I had always been interested in politics, but not in any sort of partisan way; this project helped guide me more toward a passion in research-based political science.
+\newline\newline
+During this time I also worked on an applied political economy project regarding the regional effects of the relationship between adverse regime change and economics growth/inequality. This was originally inspired by a paper by Alberto Alesina et all, in which they argued that political instability (frequent regime change of many kinds) and GDP growth have an inverse relationship \cite{ref2:2}. However, while later papers improved on this result, it was not clear whether or not regional groups, linguistic groups, and types of regime change had a meaningful effect on this relationship. We found that they did, particularly for linguistic groups (as this can largely be viewed as a proxy for cultural groups, and different cultural groups may react very differently to frequency/type of regime change of their respective nation-states).
+\newline\newline
+Most recently, I participated in the Open Source Macroeconomics Laboratory at the University of Chicago during the summer of 2017. Here, not only did I \textbf{greatly} improve my coding ability, but I also learned a great deal about various macroeconomic analysis methods that I hope to use in the future.
+\newline\newline
+\textbf{Current Interests:}
+\newline\newline
+Right now I am very interested in continuing to entertain my interests in computational economics in general. I believe that the future for this subfield is very bright, especially as theorems become more complex as our computational ability become more powerful. My specific interests in terms of economic subfields associated with content, rather than methods, are not as well-defined. As I have learned about different subfields I have found myself very quickly interested in them, diving into the easier literature for a few months, and moving onto the next topic. I believe as an undergraduate this process has been beneficial, as it has kept my breadth wide. However, in general I have found that my long-lasting interests generally can be grouped into three categories:
+\newline
+\begin{enumerate}
+\item \textbf{Economic Theory}: specifically as it pertains to applied game theory and labor economics. Given a change in public or corporate policy, how will people react? I am interested in helping to develop new methods, and helping apply them to problems in labor economics. Examples: minimum wage \& collective bargaining modeling, economic inequality (income and wealth), localized unemployment, encoding differences in culture in a mathematically rigorous model (which we attempted in our political instability paper by using linguistic subgroups), etc. The future of this field depends on greater and greater understanding of computational methods in economics (especially HPC methods), as solving these models is continually requiring higher and higher dimensionality.
+\item \textbf{Energy \& Sustainability Economics:} This subfield has a more personal connection to me, as outside of economics I am also very interested and involved in sustainability activism. Examples: applied analysis of sustainability of nuclear, exploration into revenue-neutral transition to renewable resource-based economy, sustainability of markets, etc.
+\end{enumerate}
+\textbf{Equation (Bellman Equation):}
+\begin{equation}
+V(y) = max_{0 \leq c \leq y} \Big[ u(c) + \beta \int V(f(y-c)z)\phi(dz) \Big]
+\end{equation}
+\newpage
+
+\bibliography{ps1}
+\bibliographystyle{plain}
+
+
+\section*{Quick Note}
+I apologize for the late submission; I have been having problems with Github for some reason. When I went to get check to make sure everything looked good for class today, I also saw that nothing was on my fork. Normally when I go to push something it comes will do just fine if I don't specify the location, but in this case it did not. I'll make sure I account for this.
+
+
+
+
+
+
+
+
+
+
+\end{document}
